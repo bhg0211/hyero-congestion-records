@@ -1,0 +1,912 @@
+===== 2026-09-30 19:22:57.27 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 64604개, 2026-09-30 19:00:09+09:00까지 재사용
+  [DB] 새로 받은 로그 2614건 (observed_at > 2026-09-30 19:00:09+09:00)
+충전기 64608개, 최신 관측 시각 2026-09-30 19:20:11+09:00
+  lead=30분: 샘플 1760898개
+  lead=60분: 샘플 1709027개
+  lead=120분: 샘플 1657218개
+전체 학습 샘플: 5127143개
+분할 방식: 시간 분할 (누적 15일치, cutoff=2026-09-29 18:50:10+09:00 이후를 테스트로 사용)
+학습 4712284개, 테스트 414859개
+로지스틱회귀       AUC=0.9014  logloss=0.3048
+랜덤포레스트       AUC=0.9520  logloss=0.2466
+그래디언트부스팅     AUC=0.9545  logloss=0.2366
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9545)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 64608개, 2026-09-30 19:20:11+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-09-30 19:20:11+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1812개, 2026-09-30 19:10:05+09:00까지 재사용
+  [DB] 새로 받은 로그 182건 (observed_at > 2026-09-30 19:10:05+09:00)
+충전기 1812개, 최신 관측 시각 2026-09-30 19:30:02+09:00
+  lead=30분: 샘플 172557개
+  lead=60분: 샘플 169014개
+  lead=120분: 샘플 168047개
+전체 학습 샘플: 509618개
+분할 방식: 시간 분할 (누적 19일치, cutoff=2026-09-29 19:00:00+09:00 이후를 테스트로 사용)
+학습 479875개, 테스트 29743개
+로지스틱회귀       AUC=0.8895  logloss=0.1970
+랜덤포레스트       AUC=0.9252  logloss=0.1648
+그래디언트부스팅     AUC=0.9298  logloss=0.1600
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9298)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1812개, 2026-09-30 19:30:02+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-09-30 19:30:02+09:00)
+===== 2026-10-06 19:46:29.71 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 64608개, 2026-09-30 19:20:11+09:00까지 재사용
+  [DB] 새로 받은 로그 909482건 (observed_at > 2026-09-30 19:20:11+09:00)
+충전기 65921개, 최신 관측 시각 2026-10-06 19:40:10+09:00
+  lead=30분: 샘플 2566064개
+  lead=60분: 샘플 2490364개
+  lead=120분: 샘플 2421873개
+전체 학습 샘플: 7478301개
+분할 방식: 시간 분할 (누적 21일치, cutoff=2026-10-05 19:10:09+09:00 이후를 테스트로 사용)
+학습 7113182개, 테스트 365119개
+로지스틱회귀       AUC=0.8974  logloss=0.3238
+랜덤포레스트       AUC=0.9454  logloss=0.2660
+그래디언트부스팅     AUC=0.9477  logloss=0.2565
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9477)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 65921개, 2026-10-06 19:40:10+09:00까지 재사용
+  [DB] 새로 받은 로그 1124건 (observed_at > 2026-10-06 19:40:10+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1812개, 2026-09-30 19:30:02+09:00까지 재사용
+  [DB] 새로 받은 로그 61468건 (observed_at > 2026-09-30 19:30:02+09:00)
+충전기 1845개, 최신 관측 시각 2026-10-06 19:54:51+09:00
+  lead=30분: 샘플 231764개
+  lead=60분: 샘플 227117개
+  lead=120분: 샘플 225976개
+전체 학습 샘플: 684857개
+분할 방식: 시간 분할 (누적 26일치, cutoff=2026-10-05 19:24:30+09:00 이후를 테스트로 사용)
+학습 659323개, 테스트 25534개
+로지스틱회귀       AUC=0.8959  logloss=0.1960
+랜덤포레스트       AUC=0.9391  logloss=0.1608
+그래디언트부스팅     AUC=0.9400  logloss=0.1576
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9400)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1845개, 2026-10-06 19:54:51+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-06 19:54:51+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 6684개, 2026-10-06 19:42:03+09:00까지 재사용
+  [DB] 새로 받은 로그 354건 (observed_at > 2026-10-06 19:42:03+09:00)
+충전기 6686개, 최신 관측 시각 2026-10-06 19:52:05+09:00
+  lead=30분: 샘플 158342개
+  lead=60분: 샘플 156613개
+  lead=120분: 샘플 155216개
+전체 학습 샘플: 470171개
+분할 방식: 시간 분할 (누적 6일치, cutoff=2026-10-05 19:22:03+09:00 이후를 테스트로 사용)
+학습 397318개, 테스트 72853개
+로지스틱회귀       AUC=0.8991  logloss=0.2798
+랜덤포레스트       AUC=0.9268  logloss=0.2513
+그래디언트부스팅     AUC=0.9283  logloss=0.2462
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9283)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 6686개, 2026-10-06 19:52:05+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-06 19:52:05+09:00)
+===== 2026-10-09  3:00:02.37 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 65923개, 2026-10-06 19:49:10+09:00까지 재사용
+  [DB] 새로 받은 로그 357363건 (observed_at > 2026-10-06 19:49:10+09:00)
+충전기 66346개, 최신 관측 시각 2026-10-09 02:50:10+09:00
+  lead=30분: 샘플 2885040개
+  lead=60분: 샘플 2801206개
+  lead=120분: 샘플 2722398개
+전체 학습 샘플: 8408644개
+분할 방식: 시간 분할 (누적 23일치, cutoff=2026-10-08 02:10:10+09:00 이후를 테스트로 사용)
+학습 8017115개, 테스트 391529개
+로지스틱회귀       AUC=0.9067  logloss=0.3171
+랜덤포레스트       AUC=0.9487  logloss=0.2636
+그래디언트부스팅     AUC=0.9513  logloss=0.2547
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9513)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 66346개, 2026-10-09 02:50:10+09:00까지 재사용
+  [DB] 새로 받은 로그 1701건 (observed_at > 2026-10-09 02:50:10+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1845개, 2026-10-06 19:54:51+09:00까지 재사용
+  [DB] 새로 받은 로그 24551건 (observed_at > 2026-10-06 19:54:51+09:00)
+충전기 1851개, 최신 관측 시각 2026-10-09 03:09:06+09:00
+  lead=30분: 샘플 255045개
+  lead=60분: 샘플 250041개
+  lead=120분: 샘플 248924개
+전체 학습 샘플: 754010개
+분할 방식: 시간 분할 (누적 28일치, cutoff=2026-10-08 02:38:52+09:00 이후를 테스트로 사용)
+학습 723854개, 테스트 30156개
+로지스틱회귀       AUC=0.9002  logloss=0.2005
+랜덤포레스트       AUC=0.9321  logloss=0.1685
+그래디언트부스팅     AUC=0.9373  logloss=0.1634
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9373)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1851개, 2026-10-09 03:09:06+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-09 03:09:06+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 6686개, 2026-10-06 19:52:05+09:00까지 재사용
+  [DB] 새로 받은 로그 94744건 (observed_at > 2026-10-06 19:52:05+09:00)
+충전기 6997개, 최신 관측 시각 2026-10-09 03:02:04+09:00
+  lead=30분: 샘플 245914개
+  lead=60분: 샘플 243103개
+  lead=120분: 샘플 240831개
+전체 학습 샘플: 729848개
+분할 방식: 시간 분할 (누적 8일치, cutoff=2026-10-08 02:32:00+09:00 이후를 테스트로 사용)
+학습 613985개, 테스트 115863개
+로지스틱회귀       AUC=0.8735  logloss=0.3167
+랜덤포레스트       AUC=0.9019  logloss=0.2832
+그래디언트부스팅     AUC=0.9041  logloss=0.2786
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9041)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 6997개, 2026-10-09 03:02:04+09:00까지 재사용
+  [DB] 새로 받은 로그 242건 (observed_at > 2026-10-09 03:02:04+09:00)
+===== 2026-10-12  3:00:02.39 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 66568개, 2026-10-11 17:00:10+09:00까지 재사용
+  [DB] 새로 받은 로그 58434건 (observed_at > 2026-10-11 17:00:10+09:00)
+충전기 66605개, 최신 관측 시각 2026-10-12 02:50:10+09:00
+  lead=30분: 샘플 3262673개
+  lead=60분: 샘플 3163150개
+  lead=120분: 샘플 3073058개
+전체 학습 샘플: 9498881개
+분할 방식: 시간 분할 (누적 26일치, cutoff=2026-10-11 02:20:10+09:00 이후를 테스트로 사용)
+학습 9149650개, 테스트 349231개
+로지스틱회귀       AUC=0.9176  logloss=0.2962
+랜덤포레스트       AUC=0.9513  logloss=0.2506
+그래디언트부스팅     AUC=0.9542  logloss=0.2400
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9542)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 66605개, 2026-10-12 02:50:10+09:00까지 재사용
+  [DB] 새로 받은 로그 2736건 (observed_at > 2026-10-12 02:50:10+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1855개, 2026-10-11 17:00:10+09:00까지 재사용
+  [DB] 새로 받은 로그 4415건 (observed_at > 2026-10-11 17:00:10+09:00)
+충전기 1856개, 최신 관측 시각 2026-10-12 03:10:07+09:00
+  lead=30분: 샘플 286907개
+  lead=60분: 샘플 281153개
+  lead=120분: 샘플 280056개
+전체 학습 샘플: 848116개
+분할 방식: 시간 분할 (누적 31일치, cutoff=2026-10-11 02:39:55+09:00 이후를 테스트로 사용)
+학습 818732개, 테스트 29384개
+로지스틱회귀       AUC=0.9025  logloss=0.1803
+랜덤포레스트       AUC=0.9412  logloss=0.1525
+그래디언트부스팅     AUC=0.9431  logloss=0.1484
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9431)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1856개, 2026-10-12 03:10:07+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-12 03:10:07+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 7154개, 2026-10-11 17:02:10+09:00까지 재사용
+  [DB] 새로 받은 로그 15448건 (observed_at > 2026-10-11 17:02:10+09:00)
+충전기 7171개, 최신 관측 시각 2026-10-12 03:12:09+09:00
+  lead=30분: 샘플 357213개
+  lead=60분: 샘플 352531개
+  lead=120분: 샘플 349476개
+전체 학습 샘플: 1059220개
+분할 방식: 시간 분할 (누적 11일치, cutoff=2026-10-11 02:42:00+09:00 이후를 테스트로 사용)
+학습 959343개, 테스트 99877개
+로지스틱회귀       AUC=0.8823  logloss=0.2693
+랜덤포레스트       AUC=0.9138  logloss=0.2404
+그래디언트부스팅     AUC=0.9164  logloss=0.2352
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9164)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 7171개, 2026-10-12 03:12:09+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-12 03:12:09+09:00)
+===== 2026-10-15  3:00:02.37 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 66605개, 2026-10-12 03:10:10+09:00까지 재사용
+  [DB] 새로 받은 로그 435472건 (observed_at > 2026-10-12 03:10:10+09:00)
+충전기 68306개, 최신 관측 시각 2026-10-15 02:50:09+09:00
+  lead=30분: 샘플 3646588개
+  lead=60분: 샘플 3536506개
+  lead=120분: 샘플 3437063개
+전체 학습 샘플: 10620157개
+분할 방식: 시간 분할 (누적 29일치, cutoff=2026-10-14 02:20:09+09:00 이후를 테스트로 사용)
+학습 10259785개, 테스트 360372개
+로지스틱회귀       AUC=0.9140  logloss=0.3023
+랜덤포레스트       AUC=0.9509  logloss=0.2561
+그래디언트부스팅     AUC=0.9534  logloss=0.2465
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9534)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 68306개, 2026-10-15 02:50:09+09:00까지 재사용
+  [DB] 새로 받은 로그 1642건 (observed_at > 2026-10-15 02:50:09+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1856개, 2026-10-12 03:10:07+09:00까지 재사용
+  [DB] 새로 받은 로그 32660건 (observed_at > 2026-10-12 03:10:07+09:00)
+충전기 1866개, 최신 관측 시각 2026-10-15 03:11:56+09:00
+  lead=30분: 샘플 318135개
+  lead=60분: 샘플 311721개
+  lead=120분: 샘플 310496개
+전체 학습 샘플: 940352개
+분할 방식: 시간 분할 (누적 34일치, cutoff=2026-10-14 02:41:56+09:00 이후를 테스트로 사용)
+학습 910437개, 테스트 29915개
+로지스틱회귀       AUC=0.9172  logloss=0.1825
+랜덤포레스트       AUC=0.9388  logloss=0.1564
+그래디언트부스팅     AUC=0.9403  logloss=0.1533
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9403)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1866개, 2026-10-15 03:11:56+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-15 03:11:56+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 7171개, 2026-10-12 03:12:09+09:00까지 재사용
+  [DB] 새로 받은 로그 127919건 (observed_at > 2026-10-12 03:12:09+09:00)
+충전기 7343개, 최신 관측 시각 2026-10-15 03:12:10+09:00
+  lead=30분: 샘플 476043개
+  lead=60분: 샘플 470005개
+  lead=120분: 샘플 466483개
+전체 학습 샘플: 1412531개
+분할 방식: 시간 분할 (누적 14일치, cutoff=2026-10-14 02:42:04+09:00 이후를 테스트로 사용)
+학습 1301432개, 테스트 111099개
+로지스틱회귀       AUC=0.8764  logloss=0.3049
+랜덤포레스트       AUC=0.9044  logloss=0.2723
+그래디언트부스팅     AUC=0.9084  logloss=0.2663
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9084)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 7343개, 2026-10-15 03:12:10+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-15 03:12:10+09:00)
+===== 2026-10-18  3:00:02.82 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 68307개, 2026-10-15 03:01:10+09:00까지 재사용
+  [DB] 새로 받은 로그 440621건 (observed_at > 2026-10-15 03:01:10+09:00)
+충전기 68907개, 최신 관측 시각 2026-10-18 02:50:10+09:00
+  lead=30분: 샘플 4039530개
+  lead=60분: 샘플 3918969개
+  lead=120분: 샘플 3810285개
+전체 학습 샘플: 11768784개
+분할 방식: 시간 분할 (누적 32일치, cutoff=2026-10-17 02:20:09+09:00 이후를 테스트로 사용)
+학습 11414039개, 테스트 354745개
+로지스틱회귀       AUC=0.9220  logloss=0.2851
+랜덤포레스트       AUC=0.9516  logloss=0.2473
+그래디언트부스팅     AUC=0.9541  logloss=0.2392
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9541)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 68907개, 2026-10-18 02:50:10+09:00까지 재사용
+  [DB] 새로 받은 로그 3132건 (observed_at > 2026-10-18 02:50:10+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1866개, 2026-10-15 03:11:56+09:00까지 재사용
+  [DB] 새로 받은 로그 26905건 (observed_at > 2026-10-15 03:11:56+09:00)
+충전기 1875개, 최신 관측 시각 2026-10-18 03:12:00+09:00
+  lead=30분: 샘플 343953개
+  lead=60분: 샘플 337031개
+  lead=120분: 샘플 335826개
+전체 학습 샘플: 1016810개
+분할 방식: 시간 분할 (누적 37일치, cutoff=2026-10-17 02:41:56+09:00 이후를 테스트로 사용)
+학습 993145개, 테스트 23665개
+로지스틱회귀       AUC=0.9134  logloss=0.2119
+랜덤포레스트       AUC=0.9412  logloss=0.1808
+그래디언트부스팅     AUC=0.9434  logloss=0.1757
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9434)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1875개, 2026-10-18 03:12:00+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-18 03:12:00+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 7343개, 2026-10-15 03:12:10+09:00까지 재사용
+  [DB] 새로 받은 로그 126950건 (observed_at > 2026-10-15 03:12:10+09:00)
+충전기 7464개, 최신 관측 시각 2026-10-18 03:12:10+09:00
+  lead=30분: 샘플 594037개
+  lead=60분: 샘플 586422개
+  lead=120분: 샘플 581428개
+전체 학습 샘플: 1761887개
+분할 방식: 시간 분할 (누적 17일치, cutoff=2026-10-17 02:42:00+09:00 이후를 테스트로 사용)
+학습 1646498개, 테스트 115389개
+로지스틱회귀       AUC=0.8750  logloss=0.2991
+랜덤포레스트       AUC=0.9045  logloss=0.2666
+그래디언트부스팅     AUC=0.9079  logloss=0.2601
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9079)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 7464개, 2026-10-18 03:12:10+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-18 03:12:10+09:00)
+===== 2026-10-21  3:00:02.85 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 68907개, 2026-10-18 03:10:09+09:00까지 재사용
+  [DB] 새로 받은 로그 430861건 (observed_at > 2026-10-18 03:10:09+09:00)
+충전기 69224개, 최신 관측 시각 2026-10-21 02:51:10+09:00
+  lead=30분: 샘플 4417905개
+  lead=60분: 샘플 4288016개
+  lead=120분: 샘플 4172893개
+전체 학습 샘플: 12878814개
+분할 방식: 시간 분할 (누적 35일치, cutoff=2026-10-20 02:20:09+09:00 이후를 테스트로 사용)
+학습 12499437개, 테스트 379377개
+로지스틱회귀       AUC=0.9113  logloss=0.2981
+랜덤포레스트       AUC=0.9512  logloss=0.2504
+그래디언트부스팅     AUC=0.9536  logloss=0.2417
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9536)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 69224개, 2026-10-21 02:51:10+09:00까지 재사용
+===== 2026-10-24  3:00:02.93 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 69224개, 2026-10-21 02:51:10+09:00까지 재사용
+  [DB] 새로 받은 로그 378095건 (observed_at > 2026-10-21 02:51:10+09:00)
+충전기 69535개, 최신 관측 시각 2026-10-24 02:41:10+09:00
+  lead=30분: 샘플 4760534개
+  lead=60분: 샘플 4624775개
+  lead=120분: 샘플 4498940개
+전체 학습 샘플: 13884249개
+분할 방식: 시간 분할 (누적 38일치, cutoff=2026-10-23 02:11:07+09:00 이후를 테스트로 사용)
+학습 13551257개, 테스트 332992개
+로지스틱회귀       AUC=0.9104  logloss=0.3085
+랜덤포레스트       AUC=0.9531  logloss=0.2563
+그래디언트부스팅     AUC=0.9550  logloss=0.2480
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9550)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 69535개, 2026-10-24 02:41:10+09:00까지 재사용
+  [DB] 새로 받은 로그 1422건 (observed_at > 2026-10-24 02:41:10+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1875개, 2026-10-18 03:12:00+09:00까지 재사용
+  [DB] 새로 받은 로그 44943건 (observed_at > 2026-10-18 03:12:00+09:00)
+충전기 1888개, 최신 관측 시각 2026-10-24 03:10:07+09:00
+  lead=30분: 샘플 387141개
+  lead=60분: 샘플 379318개
+  lead=120분: 샘플 378120개
+전체 학습 샘플: 1144579개
+분할 방식: 시간 분할 (누적 43일치, cutoff=2026-10-23 02:40:07+09:00 이후를 테스트로 사용)
+학습 1125850개, 테스트 18729개
+로지스틱회귀       AUC=0.9220  logloss=0.1855
+랜덤포레스트       AUC=0.9472  logloss=0.1587
+그래디언트부스팅     AUC=0.9470  logloss=0.1555
+
+가장 좋은 모델: 랜덤포레스트 (AUC=0.9472)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (랜덤포레스트)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1888개, 2026-10-24 03:10:07+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-24 03:10:07+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 7464개, 2026-10-18 03:12:10+09:00까지 재사용
+  [DB] 새로 받은 로그 221155건 (observed_at > 2026-10-18 03:12:10+09:00)
+충전기 7586개, 최신 관측 시각 2026-10-24 03:13:08+09:00
+  lead=30분: 샘플 803855개
+  lead=60분: 샘플 795114개
+  lead=120분: 샘플 789227개
+전체 학습 샘플: 2388196개
+분할 방식: 시간 분할 (누적 23일치, cutoff=2026-10-23 02:23:00+09:00 이후를 테스트로 사용)
+학습 2310062개, 테스트 78134개
+로지스틱회귀       AUC=0.8919  logloss=0.2700
+랜덤포레스트       AUC=0.9212  logloss=0.2382
+그래디언트부스팅     AUC=0.9250  logloss=0.2330
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9250)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 7586개, 2026-10-24 03:13:08+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-24 03:13:08+09:00)
+===== 2026-10-27  3:00:02.80 ===== 
+===== 2026-10-30  3:00:02.54 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 69537개, 2026-10-24 03:11:10+09:00까지 재사용
+  [DB] 새로 받은 로그 708233건 (observed_at > 2026-10-24 03:11:10+09:00)
+충전기 69845개, 최신 관측 시각 2026-10-30 02:51:09+09:00
+  lead=30분: 샘플 5388583개
+  lead=60분: 샘플 5240614개
+  lead=120분: 샘플 5101284개
+전체 학습 샘플: 15730481개
+분할 방식: 시간 분할 (누적 44일치, cutoff=2026-10-29 02:21:09+09:00 이후를 테스트로 사용)
+학습 15448817개, 테스트 281664개
+로지스틱회귀       AUC=0.9119  logloss=0.3195
+랜덤포레스트       AUC=0.9521  logloss=0.2618
+그래디언트부스팅     AUC=0.9542  logloss=0.2522
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9542)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 69845개, 2026-10-30 02:51:09+09:00까지 재사용
+  [DB] 새로 받은 로그 3174건 (observed_at > 2026-10-30 02:51:09+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1888개, 2026-10-24 03:10:07+09:00까지 재사용
+  [DB] 새로 받은 로그 40009건 (observed_at > 2026-10-24 03:10:07+09:00)
+충전기 1892개, 최신 관측 시각 2026-10-30 03:19:07+09:00
+  lead=30분: 샘플 425623개
+  lead=60분: 샘플 417067개
+  lead=120분: 샘플 415732개
+전체 학습 샘플: 1258422개
+분할 방식: 시간 분할 (누적 49일치, cutoff=2026-10-29 02:48:59+09:00 이후를 테스트로 사용)
+학습 1243860개, 테스트 14562개
+로지스틱회귀       AUC=0.9575  logloss=0.1782
+랜덤포레스트       AUC=0.9748  logloss=0.1441
+그래디언트부스팅     AUC=0.9753  logloss=0.1393
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9753)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1892개, 2026-10-30 03:19:07+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-30 03:19:07+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 7586개, 2026-10-24 03:13:08+09:00까지 재사용
+  [DB] 새로 받은 로그 176761건 (observed_at > 2026-10-24 03:13:08+09:00)
+충전기 7657개, 최신 관측 시각 2026-10-30 03:22:32+09:00
+  lead=30분: 샘플 973213개
+  lead=60분: 샘플 963685개
+  lead=120분: 샘플 957613개
+전체 학습 샘플: 2894511개
+분할 방식: 시간 분할 (누적 29일치, cutoff=2026-10-29 02:42:36+09:00 이후를 테스트로 사용)
+학습 2817337개, 테스트 77174개
+로지스틱회귀       AUC=0.9016  logloss=0.2727
+랜덤포레스트       AUC=0.9243  logloss=0.2434
+그래디언트부스팅     AUC=0.9268  logloss=0.2372
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9268)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 7657개, 2026-10-30 03:22:32+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-10-30 03:22:32+09:00)
+===== 2026-11-02  3:00:02.08 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 69845개, 2026-10-30 03:12:07+09:00까지 재사용
+  [DB] 새로 받은 로그 356752건 (observed_at > 2026-10-30 03:12:07+09:00)
+충전기 70000개, 최신 관측 시각 2026-11-02 02:51:08+09:00
+  lead=30분: 샘플 5702399개
+  lead=60분: 샘플 5547454개
+  lead=120분: 샘플 5403299개
+전체 학습 샘플: 16653152개
+분할 방식: 시간 분할 (누적 47일치, cutoff=2026-11-01 02:21:08+09:00 이후를 테스트로 사용)
+학습 16274310개, 테스트 378842개
+로지스틱회귀       AUC=0.8936  logloss=0.3471
+랜덤포레스트       AUC=0.9418  logloss=0.2843
+그래디언트부스팅     AUC=0.9444  logloss=0.2733
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9444)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 70000개, 2026-11-02 02:51:08+09:00까지 재사용
+  [DB] 새로 받은 로그 1793건 (observed_at > 2026-11-02 02:51:08+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1892개, 2026-10-30 03:19:07+09:00까지 재사용
+  [DB] 새로 받은 로그 18809건 (observed_at > 2026-10-30 03:19:07+09:00)
+충전기 1895개, 최신 관측 시각 2026-11-02 03:16:10+09:00
+  lead=30분: 샘플 443658개
+  lead=60분: 샘플 434758개
+  lead=120분: 샘플 433374개
+전체 학습 샘플: 1311790개
+분할 방식: 시간 분할 (누적 52일치, cutoff=2026-11-01 02:44:39+09:00 이후를 테스트로 사용)
+학습 1290900개, 테스트 20890개
+로지스틱회귀       AUC=0.9197  logloss=0.1896
+랜덤포레스트       AUC=0.9505  logloss=0.1620
+그래디언트부스팅     AUC=0.9537  logloss=0.1561
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9537)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1895개, 2026-11-02 03:16:10+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-11-02 03:16:10+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 7657개, 2026-10-30 03:22:32+09:00까지 재사용
+  [DB] 새로 받은 로그 91896건 (observed_at > 2026-10-30 03:22:32+09:00)
+충전기 7696개, 최신 관측 시각 2026-11-02 03:22:30+09:00
+  lead=30분: 샘플 1061704개
+  lead=60분: 샘플 1051650개
+  lead=120분: 샘플 1045422개
+전체 학습 샘플: 3158776개
+분할 방식: 시간 분할 (누적 32일치, cutoff=2026-11-01 02:52:23+09:00 이후를 테스트로 사용)
+학습 3047694개, 테스트 111082개
+로지스틱회귀       AUC=0.8785  logloss=0.2854
+랜덤포레스트       AUC=0.9068  logloss=0.2547
+그래디언트부스팅     AUC=0.9088  logloss=0.2501
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9088)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 7696개, 2026-11-02 03:22:30+09:00까지 재사용
+  [DB] 새로 받은 로그 0건 (observed_at > 2026-11-02 03:22:30+09:00)
+===== 2026-11-05  3:00:02.00 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 70000개, 2026-11-02 03:11:10+09:00까지 재사용
+  [DB] 새로 받은 로그 480858건 (observed_at > 2026-11-02 03:11:10+09:00)
+충전기 70255개, 최신 관측 시각 2026-11-05 02:52:10+09:00
+  lead=30분: 샘플 6128648개
+  lead=60분: 샘플 5961797개
+  lead=120분: 샘플 5800017개
+전체 학습 샘플: 17890462개
+분할 방식: 시간 분할 (누적 50일치, cutoff=2026-11-04 02:22:10+09:00 이후를 테스트로 사용)
+학습 17500463개, 테스트 389999개
+로지스틱회귀       AUC=0.8802  logloss=0.3717
+랜덤포레스트       AUC=0.9339  logloss=0.3017
+그래디언트부스팅     AUC=0.9363  logloss=0.2928
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9363)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 70255개, 2026-11-05 02:52:10+09:00까지 재사용
+===== 2026-11-08  3:00:01.98 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 70255개, 2026-11-05 02:52:10+09:00까지 재사용
+  [DB] 새로 받은 로그 536403건 (observed_at > 2026-11-05 02:52:10+09:00)
+충전기 70383개, 최신 관측 시각 2026-11-08 02:51:09+09:00
+  lead=30분: 샘플 6607400개
+  lead=60분: 샘플 6428736개
+  lead=120분: 샘플 6247474개
+전체 학습 샘플: 19283610개
+분할 방식: 시간 분할 (누적 53일치, cutoff=2026-11-07 02:21:08+09:00 이후를 테스트로 사용)
+학습 18875187개, 테스트 408423개
+로지스틱회귀       AUC=0.8842  logloss=0.3647
+랜덤포레스트       AUC=0.9351  logloss=0.3006
+그래디언트부스팅     AUC=0.9376  logloss=0.2912
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9376)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 70383개, 2026-11-08 02:51:09+09:00까지 재사용
+  [DB] 새로 받은 로그 3112건 (observed_at > 2026-11-08 02:51:09+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1895개, 2026-11-02 03:16:10+09:00까지 재사용
+  [DB] 새로 받은 로그 45988건 (observed_at > 2026-11-02 03:16:10+09:00)
+충전기 1906개, 최신 관측 시각 2026-11-08 03:19:05+09:00
+  lead=30분: 샘플 487332개
+  lead=60분: 샘플 477553개
+  lead=120분: 샘플 475992개
+전체 학습 샘플: 1440877개
+분할 방식: 시간 분할 (누적 58일치, cutoff=2026-11-07 02:48:55+09:00 이후를 테스트로 사용)
+학습 1418477개, 테스트 22400개
+로지스틱회귀       AUC=0.8886  logloss=0.2579
+랜덤포레스트       AUC=0.9284  logloss=0.2161
+그래디언트부스팅     AUC=0.9345  logloss=0.2099
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9345)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1906개, 2026-11-08 03:19:05+09:00까지 재사용
+  [DB] 새로 받은 로그 33건 (observed_at > 2026-11-08 03:19:05+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 7696개, 2026-11-02 03:22:30+09:00까지 재사용
+  [DB] 새로 받은 로그 229110건 (observed_at > 2026-11-02 03:22:30+09:00)
+충전기 7762개, 최신 관측 시각 2026-11-08 03:23:00+09:00
+  lead=30분: 샘플 1281737개
+  lead=60분: 샘플 1270974개
+  lead=120분: 샘플 1264171개
+전체 학습 샘플: 3816882개
+분할 방식: 시간 분할 (누적 38일치, cutoff=2026-11-07 02:52:21+09:00 이후를 테스트로 사용)
+학습 3695702개, 테스트 121180개
+로지스틱회귀       AUC=0.8657  logloss=0.3154
+랜덤포레스트       AUC=0.8969  logloss=0.2799
+그래디언트부스팅     AUC=0.9003  logloss=0.2736
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9003)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 7762개, 2026-11-08 03:23:00+09:00까지 재사용
+  [DB] 새로 받은 로그 321건 (observed_at > 2026-11-08 03:23:00+09:00)
+===== 2026-11-11  3:00:02.00 ===== 
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[seoul] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_seoul.pkl: 충전기 70383개, 2026-11-08 03:11:10+09:00까지 재사용
+  [DB] 새로 받은 로그 495463건 (observed_at > 2026-11-08 03:11:10+09:00)
+충전기 70479개, 최신 관측 시각 2026-11-11 02:52:09+09:00
+  lead=30분: 샘플 7045697개
+  lead=60분: 샘플 6855082개
+  lead=120분: 샘플 6655896개
+전체 학습 샘플: 20556675개
+분할 방식: 시간 분할 (누적 56일치, cutoff=2026-11-10 02:22:09+09:00 이후를 테스트로 사용)
+학습 20121990개, 테스트 434685개
+로지스틱회귀       AUC=0.8753  logloss=0.3870
+랜덤포레스트       AUC=0.9313  logloss=0.3129
+그래디언트부스팅     AUC=0.9340  logloss=0.3030
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9340)
+모델 저장 완료: seoul_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_seoul.pkl: 충전기 70479개, 2026-11-11 02:52:09+09:00까지 재사용
+  [DB] 새로 받은 로그 4549건 (observed_at > 2026-11-11 02:52:09+09:00)
+[mokpo] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_mokpo.pkl: 충전기 1906개, 2026-11-08 03:27:06+09:00까지 재사용
+  [DB] 새로 받은 로그 23134건 (observed_at > 2026-11-08 03:27:06+09:00)
+충전기 1910개, 최신 관측 시각 2026-11-11 03:18:09+09:00
+  lead=30분: 샘플 509412개
+  lead=60분: 샘플 499123개
+  lead=120분: 샘플 497507개
+전체 학습 샘플: 1506042개
+분할 방식: 시간 분할 (누적 61일치, cutoff=2026-11-10 02:48:04+09:00 이후를 테스트로 사용)
+학습 1485441개, 테스트 20601개
+로지스틱회귀       AUC=0.9245  logloss=0.2119
+랜덤포레스트       AUC=0.9550  logloss=0.1767
+그래디언트부스팅     AUC=0.9578  logloss=0.1706
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.9578)
+모델 저장 완료: mokpo_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_mokpo.pkl: 충전기 1910개, 2026-11-11 03:18:09+09:00까지 재사용
+  [DB] 새로 받은 로그 41건 (observed_at > 2026-11-11 03:18:09+09:00)
+[jeju] Supabase에서 데이터 로딩 중...
+  [캐시] _status_cache_jeju.pkl: 충전기 7762개, 2026-11-08 03:33:07+09:00까지 재사용
+  [DB] 새로 받은 로그 136277건 (observed_at > 2026-11-08 03:33:07+09:00)
+충전기 7824개, 최신 관측 시각 2026-11-11 03:23:05+09:00
+  lead=30분: 샘플 1413377개
+  lead=60분: 샘플 1401935개
+  lead=120분: 샘플 1394748개
+전체 학습 샘플: 4210060개
+분할 방식: 시간 분할 (누적 41일치, cutoff=2026-11-10 02:53:00+09:00 이후를 테스트로 사용)
+학습 4078115개, 테스트 131945개
+로지스틱회귀       AUC=0.8491  logloss=0.3533
+랜덤포레스트       AUC=0.8823  logloss=0.3110
+그래디언트부스팅     AUC=0.8867  logloss=0.3040
+
+가장 좋은 모델: 그래디언트부스팅 (AUC=0.8867)
+모델 저장 완료: jeju_congestion_classifier_candidate.pkl (그래디언트부스팅)
+  [캐시] _status_cache_jeju.pkl: 충전기 7824개, 2026-11-11 03:23:05+09:00까지 재사용
+  [DB] 새로 받은 로그 311건 (observed_at > 2026-11-11 03:23:05+09:00)

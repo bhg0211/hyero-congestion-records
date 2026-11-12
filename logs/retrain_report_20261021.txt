@@ -1,0 +1,29 @@
+재학습 리포트 - 2026-10-21 03:00:03 시작
+
+[실패]
+Traceback (most recent call last):
+  File "C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\scheduled_retrain.py", line 84, in main
+    done[region] = retrain_region(conn, region, lines)
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\scheduled_retrain.py", line 42, in retrain_region
+    test_rows, split_method = build_test_rows(conn, region)
+                              ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\check_calibration_supabase.py", line 31, in build_test_rows
+    events, charger_meta = load_status_events(conn, region)
+                           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\train_classifier_supabase.py", line 105, in load_status_events
+    cur.execute(
+    ~~~~~~~~~~~^
+        """
+        ^^^
+    ...<7 lines>...
+        (station_ids, cutoff),
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+psycopg2.errors.QueryCanceled: canceling statement due to statement timeout
+
+
+
+2026-10-21 03:32:59 종료
+

@@ -1,0 +1,14 @@
+재학습 리포트 - 2026-10-27 03:00:03 시작
+
+[실패]
+Traceback (most recent call last):
+  File "C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\scheduled_retrain.py", line 82, in main
+    conn = psycopg2.connect(DB_DSN)
+  File "C:\Users\관리자-005\Desktop\project_cap2\hyero-ev-charging-app\congestion\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "aws-0-ap-northeast-1.pooler.supabase.com" to address: Name or service not known
+
+
+
+2026-10-27 03:00:04 종료
+

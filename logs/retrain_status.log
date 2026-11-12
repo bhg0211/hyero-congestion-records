@@ -1,0 +1,14 @@
+2026-09-30 19:32:22 | 성공 | 서울 AUC=0.9545(현재 0.9545) 목포 AUC=0.9298(현재 0.9307) | candidate 저장됨
+2026-10-06 19:58:35 | 성공 | 서울 AUC=0.9477(현재 0.9475) 목포 AUC=0.9400(현재 0.9387) 제주 AUC=0.9283(현재 0.9281) | candidate 저장됨
+2026-10-09 03:13:18 | 성공 | 서울 AUC=0.9508(현재 0.9505) 목포 AUC=0.9373(현재 0.9376) 제주 AUC=0.9039(현재 0.8998) | candidate 저장됨
+2026-10-12 03:16:27 | 성공 | 서울 AUC=0.9548(현재 0.9546) 목포 AUC=0.9431(현재 0.9413) 제주 AUC=0.9164(현재 0.9133) | candidate 저장됨
+2026-10-15 03:18:28 | 성공 | 서울 AUC=0.9539(현재 0.9536) 목포 AUC=0.9403(현재 0.9421) 제주 AUC=0.9084(현재 0.9041) | candidate 저장됨
+2026-10-18 03:20:06 | 성공 | 서울 AUC=0.9546(현재 0.9544) 목포 AUC=0.9434(현재 0.9424) 제주 AUC=0.9079(현재 0.9028) | candidate 저장됨
+2026-10-21 03:32:58 | 실패 | QueryCanceled: canceling statement due to statement timeout 
+2026-10-24 03:24:48 | 성공 | 서울 AUC=0.9552(현재 0.9549) 목포 AUC=0.9472(현재 0.9463) 제주 AUC=0.9250(현재 0.9228) | candidate 저장됨
+2026-10-27 03:00:04 | 실패 | OperationalError: could not translate host name "aws-0-ap-northeast-1.pooler.supabase.com" to address: Name or service not known 
+2026-10-30 03:27:37 | 성공 | 서울 AUC=0.9545(현재 0.9542) 목포 AUC=0.9753(현재 0.9744) 제주 AUC=0.9268(현재 0.9222) | candidate 저장됨
+2026-11-02 03:29:30 | 성공 | 서울 AUC=0.9444(현재 0.9439) 목포 AUC=0.9537(현재 0.9526) 제주 AUC=0.9088(현재 0.9024) | candidate 저장됨
+2026-11-05 05:21:46 | 실패 | OperationalError: server closed the connection unexpectedly 	This probably means the server terminated abnormally 	before or while processing the request. server closed the connection unexpectedly 	This probably means the server terminated abnormally 	before or while processing the request. 
+2026-11-08 03:34:55 | 성공 | 서울 AUC=0.9375(현재 0.9371) 목포 AUC=0.9354(현재 0.9309) 제주 AUC=0.9009(현재 0.8950) | candidate 저장됨
+2026-11-11 03:35:47 | 성공 | 서울 AUC=0.9349(현재 0.9339) 목포 AUC=0.9579(현재 0.9534) 제주 AUC=0.8871(현재 0.8811) | candidate 저장됨
